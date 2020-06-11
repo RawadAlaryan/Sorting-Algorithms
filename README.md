@@ -1,6 +1,6 @@
 # Sorting-Algorithms
 This repository contains info about Sorting Algorithms Fundamentals and their Implementation in Java Programming Language.
-<h7>Maven Project Developed in Eclipse IDE.</h7>
+<h5>Maven Project Developed in Eclipse IDE.</h5>
 
 ## Fundamentals of Sorting Algorithms:
 ### Definition of a Sorting Algorithm:
