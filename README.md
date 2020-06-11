@@ -11,19 +11,19 @@ A Sorting Algorithm is an algorithm that puts elements of an array in a cer
 </ul>
 
 ### Types of Sorting Algorithms:
-<b style='color:orange'> 1. Comparison Based Sorting Algorithms:</b><br/> 
+<b> 1. Comparison Based Sorting Algorithms:</b><br/> 
 We use comparison to sort the items.<br/>
 Example: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
     
-<b style='color:orange'> 2. Non-Comparison Based Sorting Algorithms:</b><br/> 
+<b> 2. Non-Comparison Based Sorting Algorithms:</b><br/> 
 We do not use comparison to sort the items.<br/>
 Examples: Radix Sort, Bucket Sort.<br/>
 
 ### Sorting Algorithms Terms:
 <b>Time complexity:</b><br/>
-It quantifies the amount of time taken by an algorithm to run as a function of the length of the input.<br/>
+It quantifies the amount of time taken by an algorithm to run as a function of the length of the input.<br/><br/>
 <b>Space Complexity:</b><br/>
-It quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/>
+It quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/><br/>
 
 
 
