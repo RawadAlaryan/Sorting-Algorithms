@@ -20,9 +20,9 @@ Examples: Radix Sort, Bucket Sort.<br/>
 
 ### Sorting Algorithms Terms:
 <b>Time complexity:</b><br/>
-It quantifies the amount of time taken by an algorithm to run as a function of the length of the input.
+It quantifies the amount of time taken by an algorithm to run as a function of the length of the input.<br/>
 <b>Space Complexity:</b><br/>
-It quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.
+It quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/>
 
 
 
