@@ -26,4 +26,19 @@ It quantifies the amount of space or memory taken by an algorithm to run as a fu
 
 
 
-## Sorting Algorithms Implementations in Java:             
+## Sorting Algorithms Implementations in Java:     
+### Comparison-Based Sorting Algorithms:
+	*Bogo Sort.
+		Stooge Sort.
+		Sleep Sort.
+		Bubble Sort.
+		Odd-Even Sort.
+		Comb Sort.
+		Cocktail Sort.
+		Selection Sort.
+		Insertion Sort.
+		Binary Insertion Sort.
+		Shell Sort.
+		Quick Sort.
+		Merge Sort.
+		Heap Sort.        
