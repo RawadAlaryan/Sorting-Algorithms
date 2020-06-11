@@ -35,32 +35,32 @@ public class BogoSortingAlgorithm <T extends Comparable<T>> {
 		Integer[] sortedArray;
 		
 		System.out.println("\nNON-DETERMINISTIC BOGO SORTING:");
-		System.out.print("Array Before Bogo Sorting:\t\t\t\t");
+		System.out.println("Array Before Bogo Sorting:");
 		bogoSortinglgorithm.printArray(inputArray);
 		
 		//ASCENDING NON-DETERMINISTIC BOGO SORT:
 		sortedArray = bogoSortinglgorithm.BogoNonDeterministicAscendingSort(inputArray);
-		System.out.print("\nArray After Bogo Non-Deterministic Ascending Sort:\t");
+		System.out.println("\nArray After Bogo Non-Deterministic Ascending Sort:");
 		bogoSortinglgorithm.printArray(sortedArray);
 		
 		//DESCENDING NON-DETERMINISTIC BOGO SORT:		
 		sortedArray = bogoSortinglgorithm.BogoNonDeterministicDescendingSort(inputArray);
-		System.out.print("\nArray After Bogo Non-Deterministic Descending Sort:\t");
+		System.out.println("\nArray After Bogo Non-Deterministic Descending Sort:");
 		bogoSortinglgorithm.printArray(sortedArray);
 		
 		
 		System.out.println("\n\nDETERMINISTIC BOGO SORTING:");
-		System.out.print("Array Before Bogo Sorting:\t\t\t\t");
+		System.out.println("Array Before Bogo Sorting:");
 		bogoSortinglgorithm.printArray(inputArray);
 		
 		//ASCENDING DETERMINISTIC BOGO SORT:
 		sortedArray = bogoSortinglgorithm.BogoDeterministicAscendingSort(inputArray);
-		System.out.print("\nArray After Bogo Deterministic Ascending Sort:\t\t");
+		System.out.println("\nArray After Bogo Deterministic Ascending Sort:");
 		bogoSortinglgorithm.printArray(sortedArray);
 		
 		//DESCENDING DETERMINISTIC BOGO SORT:		
 		sortedArray = bogoSortinglgorithm.BogoDeterministicDescendingSort(inputArray);
-		System.out.print("\nArray After Bogo Deterministic Descending Sort:\t\t");
+		System.out.println("\nArray After Bogo Deterministic Descending Sort:");
 		bogoSortinglgorithm.printArray(sortedArray);
 
 
@@ -168,7 +168,7 @@ public class BogoSortingAlgorithm <T extends Comparable<T>> {
 	//METHOD FOR PRINTING ARRAY ELEMENTS: 
 	public void printArray(T[] array) {
 		for (int i = 0; i < array.length; ++i) {
-			System.out.print(array[i] + " ");
+			System.out.print(array[i] + "\t");
 		}
 	}
 }
