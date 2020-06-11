@@ -8,6 +8,7 @@ A Sorting Algorithm is an algorithm that puts elements of an array in a cer
     <li>If they are Numbers, then we do numerical ordering.</li>
     <li>If they are Strings, Characters, then we do alphabetical ordering.</li>
 </ul>
+
 ### Types of Sorting Algorithms:
 <b> 1. Comparison Based Sorting Algorithms:</b><br/> 
 We use comparison to sort the items.<br/>
