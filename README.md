@@ -11,11 +11,11 @@ A Sorting Algorithm is an algorithm that puts elements of an array in a cer
 </ul>
 
 ### Types of Sorting Algorithms:
-<b> 1. Comparison Based Sorting Algorithms:</b><br/> 
+<b style='color:orange'> 1. Comparison Based Sorting Algorithms:</b><br/> 
 We use comparison to sort the items.<br/>
 Example: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
     
-<b> 2. Non-Comparison Based Sorting Algorithms:</b><br/> 
+<b style='color:orange'> 2. Non-Comparison Based Sorting Algorithms:</b><br/> 
 We do not use comparison to sort the items.<br/>
 Examples: Radix Sort, Bucket Sort.<br/>
 
