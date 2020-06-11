@@ -9,10 +9,10 @@ A Sorting Algorithm is an algorithm that puts elements of an array in a cer
 	If they are Strings, Characters, then we do alphabetical ordering.
 
 ## Types of Sorting Algorithms:
- 1. Comparison Based Sorting Algorithms: 
-    We use comparison to sort the items.
+ <i>1. Comparison Based Sorting Algorithms:</i> 
+    We use comparison to sort the items.<br/>
     Example: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.
     
  2. Non-Comparison Based Sorting Algorithms: 
-    We do not use comparison to sort the items.
+    We do not use comparison to sort the items.<br/>
     Examples: Radix Sort, Bucket Sort.
