@@ -49,7 +49,7 @@ public class BogoSortingAlgorithm <T extends Comparable<T>> {
 		bogoSortinglgorithm.printArray(sortedArray);
 		
 		
-		System.out.println("\n\nDETERMINISTIC BOGO SORTING:");
+		System.out.println("\n\n\nDETERMINISTIC BOGO SORTING:");
 		System.out.println("Array Before Bogo Sorting:");
 		bogoSortinglgorithm.printArray(inputArray);
 		

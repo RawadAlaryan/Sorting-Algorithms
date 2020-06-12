@@ -4,7 +4,7 @@ This repository contains info about Sorting Algorithms Fundamentals and their Im
 
 ## Fundamentals of Sorting Algorithms:
 ### Definition of a Sorting Algorithm:
-AÂ Sorting AlgorithmÂ is anÂ algorithmÂ that puts elements of an arrayÂ in a certainÂ order.
+A Sorting Algorithm is an algorithm that puts elements of an array in a certain order.
 <ul>
     <li>If they are Numbers, then we do numerical ordering.</li>
     <li>If they are Strings, Characters, then we do alphabetical ordering.</li>
@@ -30,7 +30,7 @@ It quantifies the amount of space or memory taken by an algorithm to run as a fu
 ## Sorting Algorithms Implementations in Java:     
 ### Comparison-Based Sorting Algorithms:
 - [Bogo Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BogoSortingAlgorithm.java)<br/>
-- [Stooge Sort.]
+- [Stooge Sort.](/src/main/java/comparisonBasedSortingAlgorithms/StoogeSortingAlgorithm.java)<br/>
 
 <ul>
 	<li>Sleep Sort.</li>
@@ -46,3 +46,6 @@ It quantifies the amount of space or memory taken by an algorithm to run as a fu
 	<li>Merge Sort.</li>
 	<li>Heap Sort.</li>
 </ul>        
+
+#### Test Cases For Sorting Algorithms:
+- [Bogo Sort Test.](/src/test/java/BogoSortingAlgorithmTest.java)<br/>
