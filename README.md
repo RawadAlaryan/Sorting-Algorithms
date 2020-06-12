@@ -4,7 +4,7 @@ This repository contains info about Sorting Algorithms Fundamentals and their Im
 
 ## Fundamentals of Sorting Algorithms:
 ### Definition of a Sorting Algorithm:
-A Sorting Algorithm is an algorithm that puts elements of a Collection (array, list, ...) in a certain order.
+AÂ Sorting AlgorithmÂ is anÂ algorithmÂ that puts elements of a Collection (array, list, ...)Â in a certainÂ order.
 <ul>
     <li>If they are Numbers, then we do numerical ordering.</li>
     <li>If they are Strings, Characters, then we do alphabetical ordering.</li>
@@ -13,11 +13,11 @@ A Sorting Algorithm is an algorithm that puts elements of a Collection (array, l
 ### Types of Sorting Algorithms:
 <b> 1. Comparison Based Sorting Algorithms:</b><br/> 
 We use comparison to sort the items.<br/>
-Example: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
+<i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
     
 <b> 2. Non-Comparison Based Sorting Algorithms:</b><br/> 
 We do not use comparison to sort the items.<br/>
-Examples: Radix Sort, Bucket Sort.<br/>
+<i>Examples:</i> Radix Sort, Bucket Sort.<br/>
 
 ### Sorting Algorithms Terms:
 <b>Time complexity:</b><br/>
