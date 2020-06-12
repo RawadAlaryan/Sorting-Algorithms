@@ -37,7 +37,7 @@ public class BogoSortingAlgorithmTest {
 
 	@Test
 	void testBogoNonDeterministicAscendingSort() {
-		expectedArray = new Integer[] {-77,	-59,	-3, 0, 4,	25,	34,	60,	91};			
+		expectedArray = new Integer[] {-77, -59, -3, 0, 4, 25, 34, 60, 91};			
 		sortedArray = bogoSortinglgorithm.BogoNonDeterministicAscendingSort(inputArray);
 		assertArrayEquals(expectedArray, sortedArray);
 	}
@@ -51,7 +51,7 @@ public class BogoSortingAlgorithmTest {
 
 	@Test
 	void testBogoDeterministicAscendingSort() {
-		expectedArray = new Integer[] {-77,	-59,	-3, 0, 4,	25,	34,	60,	91};
+		expectedArray = new Integer[] {-77, -59, -3, 0, 4, 25, 34, 60, 91};
 		sortedArray = bogoSortinglgorithm.BogoDeterministicAscendingSort(inputArray);
 		assertArrayEquals(expectedArray, sortedArray);
 	}
