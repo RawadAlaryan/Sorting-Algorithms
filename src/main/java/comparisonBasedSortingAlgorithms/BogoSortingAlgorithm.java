@@ -1,4 +1,4 @@
-package comparisonBasedSortingAlgorithms;
+package main.java.comparisonBasedSortingAlgorithms;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -62,9 +62,9 @@ public class BogoSortingAlgorithm <T extends Comparable<T>> {
 		sortedArray = bogoSortinglgorithm.BogoDeterministicDescendingSort(inputArray);
 		System.out.println("\nArray After Bogo Deterministic Descending Sort:");
 		bogoSortinglgorithm.printArray(sortedArray);
-
-
 	}
+
+	
 	
 	//THE NON-DETERMINISTIC BOGO SORTING IMPLEMENTATION: 
 	public T[] BogoNonDeterministicAscendingSort(T[] inputArray) {

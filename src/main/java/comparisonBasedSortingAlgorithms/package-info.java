@@ -11,4 +11,4 @@
 * @version 1.0
 */
 
-package comparisonBasedSortingAlgorithms;
+package main.java.comparisonBasedSortingAlgorithms;
