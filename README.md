@@ -4,7 +4,7 @@ This repository contains info about Sorting Algorithms Fundamentals and their Im
 
 ## Fundamentals of Sorting Algorithms:
 ### Definition of a Sorting Algorithm:
-A Sorting Algorithm is an algorithm that puts elements of an array in a certain order.
+A Sorting Algorithm is an algorithm that puts elements of a Collection (array, list, ...) in a certain order.
 <ul>
     <li>If they are Numbers, then we do numerical ordering.</li>
     <li>If they are Strings, Characters, then we do alphabetical ordering.</li>
