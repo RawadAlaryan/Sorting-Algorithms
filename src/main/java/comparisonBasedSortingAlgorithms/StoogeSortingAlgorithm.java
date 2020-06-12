@@ -18,7 +18,6 @@ public class StoogeSortingAlgorithm <T extends Comparable<T>> {
 	public static void main(String[] args) {
 		System.out.println("STOOGE SORT:");
 		StoogeSortingAlgorithm<Integer> stoogeSortinglgorithm = new StoogeSortingAlgorithm<Integer>();
-		
 		Integer[] inputArray = {34, -3, 4, 25, 60, -77, 91, 0, -59};
 		Integer[] sortedArray;
 				
