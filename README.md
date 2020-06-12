@@ -29,7 +29,7 @@ It quantifies the amount of space or memory taken by an algorithm to run as a fu
 
 ## Sorting Algorithms Implementations in Java:     
 ### Comparison-Based Sorting Algorithms:
-- [Bogo Sort.](https://github.com/RawadAlaryan/Sorting-Algorithms/blob/master/src/comparisonBasedSortingAlgorithms/BogoSortingAlgorithm.java)<br/>
+- [Bogo Sort.](/src/comparisonBasedSortingAlgorithms/BogoSortingAlgorithm.java)<br/>
 - [Stooge Sort.]
 
 <ul>
