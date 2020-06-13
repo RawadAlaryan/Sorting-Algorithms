@@ -148,7 +148,7 @@ They take advantage of existing order in its input and perform better if the inp
 - [Odd-Even Sort Test.](/src/test/java/OddEvenSortingAlgorithmTest.java)<br/>
 - [Comb Sort Test.](/src/test/java/CombSortingAlgorithmTest.java)<br/>
 - [Cocktail Sort Test.](/src/test/java/CocktailSortingAlgorithmTest.java)<br/>
-- [Slection Sort Test.](/src/test/java/SlectionSortingAlgorithmTest.java)<br/>
+- [Selection Sort Test.](/src/test/java/SelectionSortingAlgorithmTest.java)<br/>
 - [Insertion Sort Test.](/src/test/java/InsertionSortingAlgorithmTest.java)<br/>
 - [Binary Insertion Sort Test.](/src/test/java/BinaryInsertionSortingAlgorithmTest.java)<br/>
 - [Shell Sort Test.](/src/test/java/ShellSortingAlgorithmTest.java)<br/>
