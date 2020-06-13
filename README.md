@@ -1,26 +1,23 @@
 # Sorting-Algorithms
-This repository contains info about Sorting Algorithms Fundamentals and their Implementation in Java Programming Language.
-
 
 ### Table of Contents
 - [Description](#description)
 - [Technologies](#technologies)
-- [Fundamentals of Sorting Algorithms](#fundamentals)
-- [Implementations of Sorting Algorithms](#implementations)
+- [Fundamentals of Sorting Algorithms](#fundamentals-of-Sorting-Algorithms)
+- [Implementations of Sorting Algorithms](#implementations-of-Sorting-Algorithms)
+- [Test Cases For Sorting Algorithms:](#test-cases-For-Sorting-Algorithms)
 - [Author Info](#author-info)
 
----
 
 ### Description
+This repository contains info about Sorting Algorithms Fundamentals and their Implementation in Java Programming Language.
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
 
 ### Technologies
+- Oracle Java SE API
+- Apache Maven
+- Eclipse IDE
 
-- Technology 1
-- Technology 2
-
-<h5>Maven Project Developed in Eclipse IDE.</h5>
 
 ### Fundamentals of Sorting Algorithms:
 #### Definition of a Sorting Algorithm:
@@ -64,20 +61,14 @@ It quantifies the amount of space or memory taken by an algorithm to run as a fu
 - [Merge Sort.](/src/main/java/comparisonBasedSortingAlgorithms/MergeSortingAlgorithm.java)<br/>
 - [Heap Sort.](/src/main/java/comparisonBasedSortingAlgorithms/HeapSortingAlgorithm.java)<br/>
 
-<ul>
-
-	<li>Binary Insertion Sort.</li>
-	<li>Shell Sort.</li>
-	<li>Quick Sort.</li>
-	<li>Merge Sort.</li>
-	<li>Heap Sort.</li>
-</ul>        
+      
 #### Non-Comparison-Based Sorting Algorithms
 
 
 
-#### Test Cases For Sorting Algorithms:
+#### Test Cases For Sorting Algorithms
 - [Bogo Sort Test.](/src/test/java/BogoSortingAlgorithmTest.java)<br/>
+- [Stooge Sort Test.](/src/test/java/StoogeSortingAlgorithmTest.java)<br/>
 
 
 
@@ -86,7 +77,7 @@ It quantifies the amount of space or memory taken by an algorithm to run as a fu
 
 ### Author Info:
 
-- [My LinkedIn] - (https://www.linkedin.com/in/rawad-alaryan-26a816131/)
-- [My Github] - (https://github.com/RawadAlaryan)
+- My LinkedIn - (https://www.linkedin.com/in/rawad-alaryan-26a816131/)
+- My Github - (https://github.com/RawadAlaryan)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Sorting-Algorithms)
