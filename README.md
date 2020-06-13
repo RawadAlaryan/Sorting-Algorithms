@@ -30,7 +30,7 @@ A Sorting Algorithm is an algorithm that puts elements of a Collection (arra
 
 #### Types of Sorting Algorithms:
 **1. Comparison Based Sorting Algorithms:**<br/> 
-We use comparison to sort the items. <i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/><br/>
+We use comparison to sort the items. <i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
 **2. Non-Comparison Based Sorting Algorithms:**<br/><br/> 
 We do not use comparison to sort the items. <i>Examples:</i> Radix Sort, Bucket Sort.<br/>
 
@@ -39,8 +39,10 @@ We do not use comparison to sort the items. <i>Examples:</i> Radix Sort, Bucket 
 **Time complexity:**<br/>
 It quantifies the amount of time taken by an algorithm to run as a function of the length of the input.<br/>
 
+
 **Space Complexity:**<br/>
 It quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/>
+
 
 **Inplace Sorting Algorithm:**<br/> 
 An In-place sorting algorithm needs only O(1) space/memory beyond the items being sorted. So an in place algorithm does not need any extra memory. An Inplace algorithm will not allocate any extra memory like a temporary array in order to make the sorting.<br/>
@@ -64,16 +66,11 @@ An Unstable Sorting Algorithm does not maintain the relative order of items who
 
 
 **Adaptive Sorting Algorithms:**<br/>
-An Adaptive Algorithm is an algorithm that changes its behavior based on information available at runtime.<br/>
-Adaptive Algorithms are used in Numerical Methods.
-Adaptive Sorting Algorithm takes advantage of existing order in its input.
-Adaptive Sorting Algorithms perform better if the input is partially sorted!
-It benefits from local ordering when an unsorted array contains sequences "sorted subArray" that are sorted by default. The algorithms will sort faster! 
-We can modify an existing Sorting Algorithms to make it an Adaptive Sorting Algorithms.
-Adaptive Algorithms can be used in Comparison-Based-Sorting Algorithms to improve running time complexity from O(N log N) to reach O(N).
-The more pre-sorted the input is, the faster it should be sorted using Adaptive Sorting.
-Example of Adaptive Sorting Algorithms:	Bubble Sort, Insertion Sort, Quick Sort, Shell Sort.
-Example of Non-Adaptive Sorting Algorithms:	Heap Sort, Merge Sort, Selection Sort.
+An Adaptive Algorithm is an algorithm that changes its behavior based on information available at runtime. Adaptive Algorithms are used in Numerical Methods. They take advantage of existing order in its input and perform better if the input is partially sorted!
+It benefits from local ordering when an unsorted array contains sequences "sorted subArray" that are sorted by default. The algorithms will sort faster! We can modify an existing Sorting Algorithms to make it an Adaptive Sorting Algorithms. Adaptive Algorithms can be used in Comparison-Based-Sorting Algorithms to improve running time complexity from O(N log N) to reach O(N).
+The more pre-sorted the input is, the faster it should be sorted using Adaptive Sorting.<br/>
+<i>Example of Adaptive Sorting Algorithms:</i> Bubble Sort, Insertion Sort, Quick Sort, Shell Sort.
+<i>Example of Non-Adaptive Sorting Algorithms:/<i> Heap Sort, Merge Sort, Selection Sort.
 	
 
 **Deterministic and Non-Deterministic Algorithms:**<br/>
@@ -82,9 +79,9 @@ Non-deterministic Algorithm: It has more possible choices. As an example can ser
 
 
 **Serial, Parallel and Distributed Algorithms:**<br/>
-- Serial Algorithm: Performs all its steps one by one. 
-- Parallel Algorithm: Performs more steps at the same time.
-- Distributed Algorithm: Performs more steps at the same time on different machines.
+<b>Serial Algorithm:</b> Performs all its steps one by one. 
+<b>Parallel Algorithm:</b> Performs more steps at the same time.
+<b>Distributed Algorithm:</b> Performs more steps at the same time on different machines.
 
 
 **Hybrid Sorting Algorithms:**<br/>
