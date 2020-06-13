@@ -1,6 +1,6 @@
 # Sorting-Algorithms
 
-### Table of Contents
+### Table of Contents:
 - [Description](#description)
 - [Technologies](#technologies)
 - [Fundamentals of Sorting Algorithms](#fundamentals-of-Sorting-Algorithms)
@@ -9,25 +9,25 @@
 - [Author Info](#author-info)
 
 
-### Description
+### Description:
 This repository contains info about Sorting Algorithms Fundamentals and their Implementation in Java Programming Language.
 
 
-### Technologies
+### Technologies:
 - Oracle Java SE API
 - Apache Maven
 - Eclipse IDE
 
 
-### Fundamentals of Sorting Algorithms
-#### Definition of a Sorting Algorithm
+### Fundamentals of Sorting Algorithms:
+#### Definition of a Sorting Algorithm:
 A Sorting Algorithm is an algorithm that puts elements of a Collection (array, list, ...) in a certain order.
 <ul>
     <li>If they are Numbers, then we do numerical ordering.</li>
     <li>If they are Strings, Characters, then we do alphabetical ordering.</li>
 </ul>
 
-#### Types of Sorting Algorithms
+#### Types of Sorting Algorithms:
 **1. Comparison Based Sorting Algorithms:**<br/> 
 We use comparison to sort the items.<br/>
 <i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
@@ -51,8 +51,8 @@ IN PLACE ALGORITHM: An In-place sort needs only O(1) memory beyond the items bei
 			Example of Stable Algorithms: Merge Sort.
 			Example of Unstable Algorithms: Quick Sort.
 
-### Implementations of Sorting Algorithms     
-#### Comparison-Based Sorting Algorithms
+### Implementations of Sorting Algorithms:     
+#### Comparison-Based Sorting Algorithms:
 - [Bogo Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BogoSortingAlgorithm.java)<br/>
 - [Stooge Sort.](/src/main/java/comparisonBasedSortingAlgorithms/StoogeSortingAlgorithm.java)<br/>
 - [Sleep Sort.](/src/main/java/comparisonBasedSortingAlgorithms/SleepSortingAlgorithm.java)<br/>
@@ -72,14 +72,14 @@ IN PLACE ALGORITHM: An In-place sort needs only O(1) memory beyond the items bei
       
       
       
-#### Non-Comparison-Based Sorting Algorithms
+#### Non-Comparison-Based Sorting Algorithms:
 
 
 [Back To The Top](#Sorting-Algorithms)
 
 
 
-#### Test Cases For Sorting Algorithms
+#### Test Cases For Sorting Algorithms:
 - [Bogo Sort Test.](/src/test/java/BogoSortingAlgorithmTest.java)<br/>
 - [Stooge Sort Test.](/src/test/java/StoogeSortingAlgorithmTest.java)<br/>
 
@@ -88,7 +88,7 @@ IN PLACE ALGORITHM: An In-place sort needs only O(1) memory beyond the items bei
 
 
 
-### Author Info
+### Author Info:
 - [My LinkedIn](https://www.linkedin.com/in/rawad-alaryan-26a816131/)
 - [My Github](https://github.com/RawadAlaryan)
 
