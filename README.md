@@ -32,14 +32,14 @@ A Sorting Algorithm is an algorithm that puts elements of a Collection (arra
 We use comparison to sort the items.<br/>
 <i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
     
-<b> 2. Non-Comparison Based Sorting Algorithms:</b><br/> 
+**2. Non-Comparison Based Sorting Algorithms:**<br/> 
 We do not use comparison to sort the items.<br/>
 <i>Examples:</i> Radix Sort, Bucket Sort.<br/>
 
 #### Sorting Algorithms Terms:
-<b>Time complexity:</b><br/>
+**Time complexity:**<br/>
 It quantifies the amount of time taken by an algorithm to run as a function of the length of the input.<br/><br/>
-<b>Space Complexity:</b><br/>
+**Space Complexity:**<br/>
 It quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/><br/>
 
 
