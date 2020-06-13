@@ -43,22 +43,22 @@ It quantifies the amount of time taken by an algorithm to run as a function of t
 It quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/><br/>
 
 **Inplace Sorting Algorithm:**<br/> 
-<div style="text-align:justify">
 An In-place sorting algorithm needs only O(1) space/memory beyond the items being sorted. So an in place algorithm does not need any extra memory. An Inplace algorithm will not allocate any extra memory like a temporary array in order to make the sorting.<br/>
 <i>Example of In-place Sorting Algorithms:</i> Bubble Sort, Comb Sort, Selection Sort, Insertion Sort, Heap Sort and Shell Sort.<br/>
-<i>Example of Out-of-place Sorting Algorithms:</i> Merge Sort: We need some extra memory to sort the items.
-</div>	
+<i>Example of Out-of-place Sorting Algorithms:</i> Merge Sort: We need some extra memory to sort the items.<br/>	
+	
 	
 **Recursive Sorting Algorithms:**<br/> 
 Some Sorting Algorithms are implemented in a recursive manner - especially: Divide and Conquer Recursive Algorithms.<br/>
 <i>Example:</i> Merge Sort and Quick Sort.
 
+
 **Stable Sorting Algorithms:**<br/> 
-A Stable Sorting Algorithm maintains the relative order of items whose values are equal.
+A Stable Sorting Algorithm maintains the relative order of items whose values are equal.<br/>
 <i>Example of Stable Algorithms:</i> Merge Sort.<br/>
 
 **Unstable Sorting Algorithms:**<br/> 
-An Unstable Sorting Algorithm does not maintain the relative order of items whose values are equal.
+An Unstable Sorting Algorithm does not maintain the relative order of items whose values are equal.<br/>
 <i>Example of Unstable Algorithms:</i> Quick Sort.<br/>
 
 
