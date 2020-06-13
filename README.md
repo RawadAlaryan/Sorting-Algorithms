@@ -29,9 +29,9 @@ A Sorting Algorithm is an algorithm that puts elements of a Collection (arra
 
 
 #### Types of Sorting Algorithms:
-**1. Comparison Based Sorting Algorithms:**<br/> 
+**Comparison Based Sorting Algorithms:**<br/> 
 We use comparison to sort the items. <i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
-**2. Non-Comparison Based Sorting Algorithms:**<br/>
+**Non-Comparison Based Sorting Algorithms:**<br/>
 We do not use comparison to sort the items. <i>Examples:</i> Radix Sort, Bucket Sort.<br/>
 
 
@@ -69,13 +69,13 @@ An Unstable Sorting Algorithm does not maintain the relative order of items who
 An Adaptive Algorithm is an algorithm that changes its behavior based on information available at runtime. Adaptive Algorithms are used in Numerical Methods. They take advantage of existing order in its input and perform better if the input is partially sorted!
 It benefits from local ordering when an unsorted array contains sequences "sorted subArray" that are sorted by default. The algorithms will sort faster! We can modify an existing Sorting Algorithms to make it an Adaptive Sorting Algorithms. Adaptive Algorithms can be used in Comparison-Based-Sorting Algorithms to improve running time complexity from O(N log N) to reach O(N).
 The more pre-sorted the input is, the faster it should be sorted using Adaptive Sorting.<br/>
-<i>Example of Adaptive Sorting Algorithms:</i> Bubble Sort, Insertion Sort, Quick Sort, Shell Sort.
-<i>Example of Non-Adaptive Sorting Algorithms:</i> Heap Sort, Merge Sort, Selection Sort.
+<i>Example of Adaptive Sorting Algorithms:</i> Bubble Sort, Insertion Sort, Quick Sort, Shell Sort.<br/>
+<i>Example of Non-Adaptive Sorting Algorithms:</i> Heap Sort, Merge Sort, Selection Sort.<br/>
 	
 
 **Deterministic and Non-Deterministic Algorithms:**<br/>
-Deterministic Algorithm: It has in every step only one choice, how to progress. 
-Non-deterministic Algorithm: It has more possible choices. As an example can serve the deterministic and the non-deterministic finite automaton.
+<b>Deterministic Algorithm:</b> It has in every step only one choice, how to progress.<br/>
+<b>Non-deterministic Algorithm:</b> It has more possible choices. As an example can serve the deterministic and the non-deterministic finite automaton.<br/>
 
 
 **Serial, Parallel and Distributed Algorithms:**<br/>
