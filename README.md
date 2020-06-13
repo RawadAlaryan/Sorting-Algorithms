@@ -31,13 +31,15 @@ A Sorting Algorithm is an algorithm that puts elements of a Collection (Array, L
 
 #### Types of Sorting Algorithms:
 **Comparison Based Sorting Algorithms:**<br/> 
-They use comparison to sort the items. 
+They use comparison to sort the items.<br/> 
 <b><i>Examples:</i></b> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
+
 **Non-Comparison Based Sorting Algorithms:**<br/>
-They do not use comparison to sort the items. 
+They do not use comparison to sort the items.<br/> 
 <b><i>Examples:</i></b> Radix Sort, Bucket Sort.<br/>
+
 **Hybrid Based Sorting Algorithms:**<br/>
-They use both types to sort the items. 
+They use both types to sort the items.<br/> 
 <b><i>Examples:</i></b> Intro Sort, Tim Sort.<br/>
 
 #### Sorting Algorithms Terms:
