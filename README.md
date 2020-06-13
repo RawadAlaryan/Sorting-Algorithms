@@ -39,7 +39,7 @@ They do not use comparison to sort the items.<br/>
 <b><i>Examples:</i></b> Radix Sort, Bucket Sort.<br/>
 
 **Hybrid Based Sorting Algorithms:**<br/>
-They use both types to sort the items.<br/> 
+They combine both types of sorting algorithms to sort the items.<br/> 
 <b><i>Examples:</i></b> Intro Sort, Tim Sort.<br/>
 
 #### Sorting Algorithms Terms:
@@ -90,11 +90,6 @@ They take advantage of existing order in its input and perform better if the inp
 <b><i>Parallel Algorithm:</i></b> Performs more steps at the same time.<br/>
 <b><i>Distributed Algorithm:</i></b> Performs more steps at the same time on different machines.<br/>
 
-
-**Hybrid Sorting Algorithms:**<br/>
-A Hybrid Sorting Algorithm combines more sorting algorithms to solve a given problem. 
-It chooses one algorithm depending on the data or switching between them over the course of the algorithm.
-It combines desired features of each algorithm, so that the overall algorithm is better than the individual algorithms.<br/>
 
 
 ### Implementations of Sorting Algorithms:     
