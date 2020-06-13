@@ -19,15 +19,15 @@ This repository contains info about Sorting Algorithms Fundamentals and their Im
 - Eclipse IDE
 
 
-### Fundamentals of Sorting Algorithms:
-#### Definition of a Sorting Algorithm:
+### Fundamentals of Sorting Algorithms
+#### Definition of a Sorting Algorithm
 A Sorting Algorithm is an algorithm that puts elements of a Collection (array, list, ...) in a certain order.
 <ul>
     <li>If they are Numbers, then we do numerical ordering.</li>
     <li>If they are Strings, Characters, then we do alphabetical ordering.</li>
 </ul>
 
-#### Types of Sorting Algorithms:
+#### Types of Sorting Algorithms
 **1. Comparison Based Sorting Algorithms:**<br/> 
 We use comparison to sort the items.<br/>
 <i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
@@ -42,7 +42,14 @@ It quantifies the amount of time taken by an algorithm to run as a function of t
 **Space Complexity:**<br/>
 It quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/><br/>
 
-
+IN PLACE ALGORITHM: An In-place sort needs only O(1) memory beyond the items being sorted. So an in place algorithm does not need any extra memory.
+						An In-Place Algorithm will not allocate any extra memory like a temporary array in order to make the sorting.
+						Example of In-Place Algorithms: Bubble Sort, Comb Sort, Selection Sort, Insertion Sort, Heap Sort and Shell Sort.
+						Example of Out-Of-Place Algorithms: Merge Sort: We need some extra memory to sort the items.
+	Recursive: Some Sorting Algorithms are implemented in a recursive manner - especially: Divide and Conquer Algorithms. Example: Merge Sort and Quick Sort.
+	Stable: A Stable Sorting Algorithm maintains the relative order of items whose values are equal.
+			Example of Stable Algorithms: Merge Sort.
+			Example of Unstable Algorithms: Quick Sort.
 
 ### Implementations of Sorting Algorithms     
 #### Comparison-Based Sorting Algorithms
@@ -81,8 +88,7 @@ It quantifies the amount of space or memory taken by an algorithm to run as a fu
 
 
 
-### Author Info:
-
+### Author Info
 - [My LinkedIn](https://www.linkedin.com/in/rawad-alaryan-26a816131/)
 - [My Github](https://github.com/RawadAlaryan)
 
