@@ -1,1 +1,5 @@
 test\java\BogoSortingAlgorithmTest.class
+test\java\OddEvenSortingAlgorithmTest.class
+test\java\SleepSortingAlgorithmTest.class
+test\java\BubbleSortingAlgorithmTest.class
+test\java\StoogeSortingAlgorithmTest.class

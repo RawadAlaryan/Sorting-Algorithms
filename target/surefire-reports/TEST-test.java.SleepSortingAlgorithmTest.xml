@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.java.BogoSortingAlgorithmTest" time="1.093" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.java.SleepSortingAlgorithmTest" time="19.988" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -59,8 +59,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="53.0"/>
   </properties>
-  <testcase name="testBogoDeterministicAscendingSort" classname="test.java.BogoSortingAlgorithmTest" time="0.478"/>
-  <testcase name="testBogoDeterministicDescendingSort" classname="test.java.BogoSortingAlgorithmTest" time="0.442"/>
-  <testcase name="testBogoNonDeterministicAscendingSort" classname="test.java.BogoSortingAlgorithmTest" time="0.096"/>
-  <testcase name="testBogoNonDeterministicDescendingSort" classname="test.java.BogoSortingAlgorithmTest" time="0.06"/>
+  <testcase name="testSleepAscendingSort" classname="test.java.SleepSortingAlgorithmTest" time="9.981"/>
+  <testcase name="testSleepDescendingSort" classname="test.java.SleepSortingAlgorithmTest" time="10.005"/>
 </testsuite>

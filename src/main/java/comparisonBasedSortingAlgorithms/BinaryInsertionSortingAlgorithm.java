@@ -12,11 +12,11 @@ BINARY INSERTION SORTING ALGORITHM:
 	We can reduce it to O(log N) by using binary search.
 */
 
-public class BinarySortingAlgorithm <T extends Comparable<T>> {
+public class BinaryInsertionSortingAlgorithm <T extends Comparable<T>> {
 
 	public static void main(String[] args) {
 		System.out.println("BINARY INSERTION SORT:");
-		BinarySortingAlgorithm<Integer> binarySortingAlgorithm = new BinarySortingAlgorithm<Integer>();
+		BinaryInsertionSortingAlgorithm<Integer> binarySortingAlgorithm = new BinaryInsertionSortingAlgorithm<Integer>();
 		Integer[] inputArray = {34, -3, 4, 25, 60, -77, 91, 0, -59};
 		Integer[] sortedArray;
 		

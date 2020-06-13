@@ -8,10 +8,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;
 
-import main.java.comparisonBasedSortingAlgorithms.BogoSortingAlgorithm;
+import main.java.comparisonBasedSortingAlgorithms.BubbleSortingAlgorithm;
 
-public class BogoSortingAlgorithmTest {
-	private static BogoSortingAlgorithm<Integer> bogoSortinglgorithm;
+public class BubbleSortingAlgorithmTest {
+	private static BubbleSortingAlgorithm<Integer> bubbleSortinglgorithm;
 	private long startTime;
 	private long endTime;
 	private long duration;
@@ -21,9 +21,9 @@ public class BogoSortingAlgorithmTest {
 	
 	@BeforeAll
 	public static void init() { 
-		System.out.println("###   Bogo Sorting Algorithm Test   ###");
+		System.out.println("###   Bubble Sorting Algorithm Test   ###");
 		inputArray = new Integer[] {34, -3, 4, 25, 60, -77, 91, 0, -59};
-		bogoSortinglgorithm = new BogoSortingAlgorithm<Integer>();
+		bubbleSortinglgorithm = new BubbleSortingAlgorithm<Integer>();
 	}
 	
 	@BeforeEach
@@ -35,32 +35,32 @@ public class BogoSortingAlgorithmTest {
 		duration = (endTime - startTime);  
 		System.out.println("Execution Duration of Test Case: " + testInfo.getDisplayName() + " is:\t" + duration + " ns.");
 	}
-
+	
 	@Test
-	void testBogoNonDeterministicAscendingSort() {
+	void testBubbleAscendingIterativeSort() {
 		expectedArray = new Integer[] {-77, -59, -3, 0, 4, 25, 34, 60, 91};			
-		sortedArray = bogoSortinglgorithm.BogoNonDeterministicAscendingSort(inputArray);
+		sortedArray = bubbleSortinglgorithm.BubbleAscendingIterativeSort(inputArray);
 		assertArrayEquals(expectedArray, sortedArray);
 	}
 
 	@Test
-	void testBogoNonDeterministicDescendingSort() {
+	void testBubbleDescendingIterativeSort() {
 		expectedArray = new Integer[] {91, 60, 34, 25, 4, 0, -3, -59, -77};
-		sortedArray = bogoSortinglgorithm.BogoNonDeterministicDescendingSort(inputArray);
+		sortedArray = bubbleSortinglgorithm.BubbleDescendingIterativeSort(inputArray);
 		assertArrayEquals(expectedArray, sortedArray);
 	}
 
 	@Test
-	void testBogoDeterministicAscendingSort() {
-		expectedArray = new Integer[] {-77, -59, -3, 0, 4, 25, 34, 60, 91};
-		sortedArray = bogoSortinglgorithm.BogoDeterministicAscendingSort(inputArray);
+	void testBubbleAscendingRecursiveSort() {
+		expectedArray = new Integer[] {-77, -59, -3, 0, 4, 25, 34, 60, 91};			
+		sortedArray = bubbleSortinglgorithm.BubbleAscendingRecursiveSort(inputArray);
 		assertArrayEquals(expectedArray, sortedArray);
 	}
 
 	@Test
-	void testBogoDeterministicDescendingSort() {
+	void testBubbleDescendingRecursiveSort() {
 		expectedArray = new Integer[] {91, 60, 34, 25, 4, 0, -3, -59, -77};
-		sortedArray = bogoSortinglgorithm.BogoDeterministicDescendingSort(inputArray);
+		sortedArray = bubbleSortinglgorithm.BubbleDescendingRecursiveSort(inputArray);
 		assertArrayEquals(expectedArray, sortedArray);
 	}
 }

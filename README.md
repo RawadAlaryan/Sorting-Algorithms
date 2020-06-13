@@ -10,18 +10,19 @@
 
 
 ### Description:
-This repository contains info about Sorting Algorithms Fundamentals and their Implementation in Java Programming Language.
-
+This repository contains info about Sorting Algorithms Fundamentals and their Implementation in Java Programming Language.<br/>
+All code is implemented using Java with Steps and Comments included inside the source classes.<br/>
+All code is Tested and Benchmarked using a Testing Framework inside the test package.
 
 ### Technologies:
-- Oracle Java SE API
-- Apache Maven
-- Eclipse IDE
-
+- Programming Language: Java SE API
+- Development IDE: Eclipse IDE
+- Packaging and Building: Apache Maven
+- Testing Environment: JUnit 5 Jupiter
 
 ### Fundamentals of Sorting Algorithms:
 #### Definition of a Sorting Algorithm:
-A Sorting Algorithm is an algorithm that puts elements of a Collection (array, list, ...) in a certain order.
+A�Sorting Algorithm�is an�algorithm�that puts elements of a Collection (Array, List, Set etc...)�in a certain�order.
 <ul>
     <li>If they are Numbers, then we do numerical ordering.</li>
     <li>If they are Strings, Characters, then we do alphabetical ordering.</li>
@@ -30,10 +31,14 @@ A Sorting Algorithm is an algorithm that puts elements of a Collection (arra
 
 #### Types of Sorting Algorithms:
 **Comparison Based Sorting Algorithms:**<br/> 
-We use comparison to sort the items. <i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
+They use comparison to sort the items. 
+<b><i>Examples:</i></b> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
 **Non-Comparison Based Sorting Algorithms:**<br/>
-We do not use comparison to sort the items. <i>Examples:</i> Radix Sort, Bucket Sort.<br/>
-
+They do not use comparison to sort the items. 
+<b><i>Examples:</i></b> Radix Sort, Bucket Sort.<br/>
+**Hybrid Based Sorting Algorithms:**<br/>
+They use both types to sort the items. 
+<b><i>Examples:</i></b> Intro Sort, Tim Sort.<br/>
 
 #### Sorting Algorithms Terms:
 **Time complexity:**<br/>
@@ -46,31 +51,31 @@ It quantifies the amount of space or memory taken by an algorithm to run as a fu
 
 **Inplace Sorting Algorithm:**<br/> 
 An In-place sorting algorithm needs only O(1) space/memory beyond the items being sorted. So an in place algorithm does not need any extra memory. An Inplace algorithm will not allocate any extra memory like a temporary array in order to make the sorting.<br/>
-<i>Example of In-place Sorting Algorithms:</i> Bubble Sort, Comb Sort, Selection Sort, Insertion Sort, Heap Sort and Shell Sort.<br/>
-<i>Example of Out-of-place Sorting Algorithms:</i> Merge Sort: We need some extra memory to sort the items.<br/>	
+<b><i>Example of In-place Sorting Algorithms:</i></b> Bubble Sort, Comb Sort, Selection Sort, Insertion Sort, Heap Sort and Shell Sort.<br/>
+<b><i>Example of Out-of-place Sorting Algorithms:</i></b> Merge Sort: We need some extra memory to sort the items.<br/>	
 	
 	
 **Recursive Sorting Algorithms:**<br/> 
 Some Sorting Algorithms are implemented in a recursive manner - especially: Divide and Conquer Recursive Algorithms.<br/>
-<i>Example:</i> Merge Sort and Quick Sort.
+<b><i>Example:</i></b> Merge Sort and Quick Sort.
 
 
 **Stable Sorting Algorithms:**<br/> 
-A Stable Sorting Algorithm maintains the relative order of items whose values are equal.<br/>
-<i>Example of Stable Algorithms:</i> Merge Sort.<br/>
+A Stable Sorting Algorithm�maintains the relative order of items whose values are equal.<br/>
+<b><i>Example of Stable Algorithms:</i></b> Merge Sort.<br/>
 
 
 **Unstable Sorting Algorithms:**<br/> 
 An Unstable Sorting Algorithm does not maintain the relative order of items whose values are equal.<br/>
-<i>Example of Unstable Algorithms:</i> Quick Sort.<br/>
+<b><i>Example of Unstable Algorithms:</i></b> Quick Sort.<br/>
 
 
 **Adaptive Sorting Algorithms:**<br/>
-An Adaptive Algorithm is an algorithm that changes its behavior based on information available at runtime. Adaptive Algorithms are used in Numerical Methods. They take advantage of existing order in its input and perform better if the input is partially sorted!
-It benefits from local ordering when an unsorted array contains sequences "sorted subArray" that are sorted by default. The algorithms will sort faster! We can modify an existing Sorting Algorithms to make it an Adaptive Sorting Algorithms. Adaptive Algorithms can be used in Comparison-Based-Sorting Algorithms to improve running time complexity from O(N log N) to reach O(N).
-The more pre-sorted the input is, the faster it should be sorted using Adaptive Sorting.<br/>
-<i>Example of Adaptive Sorting Algorithms:</i> Bubble Sort, Insertion Sort, Quick Sort, Shell Sort.<br/>
-<i>Example of Non-Adaptive Sorting Algorithms:</i> Heap Sort, Merge Sort, Selection Sort.<br/>
+An�Adaptive Algorithm�is an�algorithm�that changes its behavior based on information available at runtime. 
+Adaptive Algorithms are used heavily in Numerical Methods. 
+They take advantage of existing order in its input and perform better if the input is partially sorted.<br/>
+<b><i>Example of Adaptive Sorting Algorithms:</i></b> Bubble Sort, Insertion Sort, Quick Sort, Shell Sort.<br/>
+<b><i>Example of Non-Adaptive Sorting Algorithms:</i></b> Heap Sort, Merge Sort, Selection Sort.<br/>
 	
 
 **Deterministic and Non-Deterministic Algorithms:**<br/>
@@ -79,9 +84,9 @@ The more pre-sorted the input is, the faster it should be sorted using Adaptive 
 
 
 **Serial, Parallel and Distributed Algorithms:**<br/>
-<b>Serial Algorithm:</b> Performs all its steps one by one.<br/>
-<b>Parallel Algorithm:</b> Performs more steps at the same time.<br/>
-<b>Distributed Algorithm:</b> Performs more steps at the same time on different machines.<br/>
+<b><i>Serial Algorithm:</i></b> Performs all its steps one by one.<br/>
+<b><i>Parallel Algorithm:</i></b> Performs more steps at the same time.<br/>
+<b><i>Distributed Algorithm:</i></b> Performs more steps at the same time on different machines.<br/>
 
 
 **Hybrid Sorting Algorithms:**<br/>
@@ -101,7 +106,7 @@ It combines desired features of each algorithm, so that the overall algorithm is
 - [Cocktail Sort.](/src/main/java/comparisonBasedSortingAlgorithms/CocktailSortingAlgorithm.java)<br/>
 - [Slection Sort.](/src/main/java/comparisonBasedSortingAlgorithms/SlectionSortingAlgorithm.java)<br/>
 - [Insertion Sort.](/src/main/java/comparisonBasedSortingAlgorithms/InsertionSortingAlgorithm.java)<br/>
-- [Binary Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BinarySortingAlgorithm.java)<br/>
+- [Binary Insertion Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BinaryInsertionSortingAlgorithm.java)<br/>
 - [Shell Sort.](/src/main/java/comparisonBasedSortingAlgorithms/ShellSortingAlgorithm.java)<br/>
 - [Quick Sort.](/src/main/java/comparisonBasedSortingAlgorithms/QuickSortingAlgorithm.java)<br/>
 - [Merge Sort.](/src/main/java/comparisonBasedSortingAlgorithms/MergeSortingAlgorithm.java)<br/>
@@ -128,7 +133,25 @@ It combines desired features of each algorithm, so that the overall algorithm is
 #### Test Cases For Sorting Algorithms:
 - [Bogo Sort Test.](/src/test/java/BogoSortingAlgorithmTest.java)<br/>
 - [Stooge Sort Test.](/src/test/java/StoogeSortingAlgorithmTest.java)<br/>
-
+- [Sleep Sort Test.](/src/test/java/SleepSortingAlgorithmTest.java)<br/>
+- [Bubble Sort Test.](/src/test/java/BubbleSortingAlgorithmTest.java)<br/>
+- [Odd-Even Sort Test.](/src/test/java/OddEvenSortingAlgorithmTest.java)<br/>
+- [Comb Sort Test.](/src/main/java/CombSortingAlgorithmTest.java)<br/>
+- [Cocktail Sort Test.](/src/main/java/CocktailSortingAlgorithmTest.java)<br/>
+- [Slection Sort Test.](/src/main/java/SlectionSortingAlgorithmTest.java)<br/>
+- [Insertion Sort Test.](/src/main/java/InsertionSortingAlgorithmTest.java)<br/>
+- [Binary Insertion Sort Test.](/src/main/java/BinaryInsertionSortingAlgorithmTest.java)<br/>
+- [Shell Sort Test.](/src/main/java/ShellSortingAlgorithmTest.java)<br/>
+- [Quick Sort Test.](/src/main/java/QuickSortingAlgorithmTest.java)<br/>
+- [Merge Sort Test.](/src/main/java/MergeSortingAlgorithmTest.java)<br/>
+- [Heap Sort Test.](/src/main/java/HeapSortingAlgorithmTest.java)<br/>
+- [Patience Sort Test.](/src/main/java/PatienceSortingAlgorithmTest.java)<br/>
+- [Cycle Sort Test.](/src/main/java/CycleSortingAlgorithmTest.java)<br/>
+- [Strand Sort Test.](/src/main/java/StrandSortingAlgorithmTest.java)<br/>
+- [Bitonic Sort Test.](/src/main/java/BitonicSortingAlgorithmTest.java)<br/>
+- [Pancake Sort Test.](/src/main/java/PancakeSortingAlgorithmTest.java)<br/>
+- [Gnome Sort Test.](/src/main/java/GnomeSortingAlgorithmTest.java)<br/>
+- [Tree Sort Test.](/src/main/java/TreeSortingAlgorithmTest.java)<br/>
 
 [Back To The Top](#Sorting-Algorithms)
 

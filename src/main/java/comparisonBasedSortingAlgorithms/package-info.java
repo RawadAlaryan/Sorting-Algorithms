@@ -10,7 +10,7 @@ Comparison-Based Sorting Algorithms In Java.
 	Cocktail Sorting Algorithm.
 	Slection Sorting Algorithm.
 	Insertion Sorting Algorithm.
-	Binary Sorting Algorithm.
+	Binary Insertion Sorting Algorithm.
 	Shell Sorting Algorithm.
 	Quick Sorting Algorithm.
 	Merge Sorting Algorithm.
