@@ -51,7 +51,7 @@ public class RadixSortingAlgorithm <T extends Comparable<T>> {
 	public static void main(String[] args) {
 		System.out.println("RADIX SORT:");
 		RadixSortingAlgorithm<Integer> radixSortingAlgorithm = new RadixSortingAlgorithm<Integer>();
-		Integer[] inputArray = {34, -3, 4, 25, 60, -77, 91, 0, -59};
+		Integer[] inputArray = {34, -3, 4, 25, 60, -77, 91, -59};
 		Integer[] sortedArray;
 		
 		System.out.println("RADIX SORT - LDS - WITH INTEGERS:");
@@ -74,12 +74,12 @@ public class RadixSortingAlgorithm <T extends Comparable<T>> {
 		System.out.println("Array Before Radix Sorting:");
 		radixSortingAlgorithm.printStringArray(inputArrayForRadixSortStrings);
 		
-		//ASCENDING RADIX SORT:
+		//ASCENDING RADIX SORT:		
 		sortedArrayForRadixSortStrings = radixSortingAlgorithm.RadixAscendingSortStrings(inputArrayForRadixSortStrings);
 		System.out.println("\n\nArray After Radix Ascending Sort:");
 		radixSortingAlgorithm.printStringArray(sortedArrayForRadixSortStrings);
 		
-		//DESCENDING RADIX SORT:		
+		//DESCENDING RADIX SORT:			
 		sortedArrayForRadixSortStrings = radixSortingAlgorithm.RadixDescendingSortStrings(inputArrayForRadixSortStrings);
 		System.out.println("\n\nArray After Radix Descending Sort:");
 		radixSortingAlgorithm.printStringArray(sortedArrayForRadixSortStrings);

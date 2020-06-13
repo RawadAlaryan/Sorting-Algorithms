@@ -122,7 +122,7 @@ They take advantage of existing order in its input and perform better if the inp
       
 #### Non-Comparison-Based Sorting Algorithms:
 - [Counting Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/CountingSortingAlgorithm.java)<br/>
-- [PigeonHole Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/PigeonHoleSortingAlgorithm.java)<br/>
+- [Pigeon-Hole Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/PigeonHoleSortingAlgorithm.java)<br/>
 - [Radix Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/RadixSortingAlgorithm.java)<br/>
 - [Bucket Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/BucketSortingAlgorithm.java)<br/>
 - [AmericanFlag Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/AmericanFlagSortingAlgorithm.java)<br/>
@@ -141,6 +141,7 @@ They take advantage of existing order in its input and perform better if the inp
 
 
 #### Test Cases For Sorting Algorithms:
+</b>Comparison-Based Sorting Algorithms Testing:</b>
 - [Bogo Sort Test.](/src/test/java/BogoSortingAlgorithmTest.java)<br/>
 - [Stooge Sort Test.](/src/test/java/StoogeSortingAlgorithmTest.java)<br/>
 - [Sleep Sort Test.](/src/test/java/SleepSortingAlgorithmTest.java)<br/>
@@ -162,6 +163,16 @@ They take advantage of existing order in its input and perform better if the inp
 - [Pancake Sort Test.](/src/test/java/PancakeSortingAlgorithmTest.java)<br/>
 - [Gnome Sort Test.](/src/test/java/GnomeSortingAlgorithmTest.java)<br/>
 - [Tree Sort Test.](/src/test/java/TreeSortingAlgorithmTest.java)<br/>
+
+</b>Non-Comparison-Based Sorting Algorithms Testing:</b>
+- [Counting Sort Test.](/src/test/java/CountingSortingAlgorithmTest.java)<br/>
+- [Pigeon-Hole Sort Test.](/src/test/java/PigeonHoleSortingAlgorithmTest.java)<br/>
+- [Radix Sort.](/src/test/java/RadixSortingAlgorithmTest.java)<br/>
+- [Bucket Sort Test.](/src/test/java/BucketSortingAlgorithmTest.java)<br/>
+- [AmericanFlag Sort Test.](/src/test/java/AmericanFlagSortingAlgorithmTest.java)<br/>
+- [Bead Sort Test.](/src/test/java/BeadSortingAlgorithmTest.java)<br/>
+
+</b>Hybrid-Based Sorting Algorithms Testing:</b>
 
 [Back To The Top](#Sorting-Algorithms)
 
