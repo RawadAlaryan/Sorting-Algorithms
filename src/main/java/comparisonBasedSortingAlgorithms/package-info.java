@@ -22,7 +22,7 @@ Comparison-Based Sorting Algorithms In Java.
 	Pancake Sorting Algorithm.
 	Gnome Sorting Algorithm.
 	Tree Sorting Algorithm.
-
+	
 @since 1.0
 @author Rawad Alaryan
 @version 1.0

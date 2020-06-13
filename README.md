@@ -126,7 +126,20 @@ It combines desired features of each algorithm, so that the overall algorithm is
       
       
 #### Non-Comparison-Based Sorting Algorithms:
+- [Counting Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/CountingSortingAlgorithm.java)<br/>
+- [PigeonHole Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/PigeonHoleSortingAlgorithm.java)<br/>
+- [Radix Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/RadixSortingAlgorithm.java)<br/>
+- [Bucket Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/BucketSortingAlgorithm.java)<br/>
+- [AmericanFlag Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/AmericanFlagSortingAlgorithm.java)<br/>
+- [Bead Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/BeadSortingAlgorithm.java)<br/>
 
+[Back To The Top](#Sorting-Algorithms)
+
+
+
+#### Hybrid-Based Sorting Algorithms:
+- [Intro Sort.](/src/main/java/hybridBasedSortingAlgorithms/IntroSortingAlgorithm.java)<br/>
+- [Tim Sort.](/src/main/java/hybridBasedSortingAlgorithms/TimSortingAlgorithm.java)<br/>
 
 [Back To The Top](#Sorting-Algorithms)
 
