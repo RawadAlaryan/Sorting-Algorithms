@@ -106,6 +106,13 @@ It combines desired features of each algorithm, so that the overall algorithm is
 - [Quick Sort.](/src/main/java/comparisonBasedSortingAlgorithms/QuickSortingAlgorithm.java)<br/>
 - [Merge Sort.](/src/main/java/comparisonBasedSortingAlgorithms/MergeSortingAlgorithm.java)<br/>
 - [Heap Sort.](/src/main/java/comparisonBasedSortingAlgorithms/HeapSortingAlgorithm.java)<br/>
+- [Patience Sort.](/src/main/java/comparisonBasedSortingAlgorithms/PatienceSortingAlgorithm.java)<br/>
+- [Cycle Sort.](/src/main/java/comparisonBasedSortingAlgorithms/CycleSortingAlgorithm.java)<br/>
+- [Strand Sort.](/src/main/java/comparisonBasedSortingAlgorithms/StrandSortingAlgorithm.java)<br/>
+- [Bitonic Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BitonicSortingAlgorithm.java)<br/>
+- [Pancake Sort.](/src/main/java/comparisonBasedSortingAlgorithms/PancakeSortingAlgorithm.java)<br/>
+- [Gnome Sort.](/src/main/java/comparisonBasedSortingAlgorithms/GnomeSortingAlgorithm.java)<br/>
+- [Tree Sort.](/src/main/java/comparisonBasedSortingAlgorithms/TreeSortingAlgorithm.java)<br/>
 
 [Back To The Top](#Sorting-Algorithms)
       
