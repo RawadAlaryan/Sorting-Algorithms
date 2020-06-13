@@ -28,7 +28,7 @@ A Sorting Algorithm is an algorithm that puts elements of a Collection (arra
 </ul>
 
 #### Types of Sorting Algorithms:
-<b> 1. Comparison Based Sorting Algorithms:</b><br/> 
+**1. Comparison Based Sorting Algorithms:**<br/> 
 We use comparison to sort the items.<br/>
 <i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
     
@@ -61,8 +61,14 @@ It quantifies the amount of space or memory taken by an algorithm to run as a fu
 - [Merge Sort.](/src/main/java/comparisonBasedSortingAlgorithms/MergeSortingAlgorithm.java)<br/>
 - [Heap Sort.](/src/main/java/comparisonBasedSortingAlgorithms/HeapSortingAlgorithm.java)<br/>
 
+[Back To The Top](#Sorting-Algorithms)
+      
+      
       
 #### Non-Comparison-Based Sorting Algorithms
+
+
+[Back To The Top](#Sorting-Algorithms)
 
 
 
@@ -71,13 +77,13 @@ It quantifies the amount of space or memory taken by an algorithm to run as a fu
 - [Stooge Sort Test.](/src/test/java/StoogeSortingAlgorithmTest.java)<br/>
 
 
+[Back To The Top](#Sorting-Algorithms)
 
 
----
 
 ### Author Info:
 
-- My LinkedIn - (https://www.linkedin.com/in/rawad-alaryan-26a816131/)
-- My Github - (https://github.com/RawadAlaryan)
+- [My LinkedIn](https://www.linkedin.com/in/rawad-alaryan-26a816131/)
+- [My Github](https://github.com/RawadAlaryan)
 
 [Back To The Top](#Sorting-Algorithms)
