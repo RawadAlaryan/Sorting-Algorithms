@@ -27,29 +27,38 @@ A Sorting Algorithm is an algorithm that puts elements of a Collection (arra
     <li>If they are Strings, Characters, then we do alphabetical ordering.</li>
 </ul>
 
+
 #### Types of Sorting Algorithms:
 **1. Comparison Based Sorting Algorithms:**<br/> 
-We use comparison to sort the items.<br/>
-<i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
-    
+We use comparison to sort the items. <i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
 **2. Non-Comparison Based Sorting Algorithms:**<br/> 
-We do not use comparison to sort the items.<br/>
-<i>Examples:</i> Radix Sort, Bucket Sort.<br/>
+We do not use comparison to sort the items. <i>Examples:</i> Radix Sort, Bucket Sort.<br/>
+
 
 #### Sorting Algorithms Terms:
 **Time complexity:**<br/>
 It quantifies the amount of time taken by an algorithm to run as a function of the length of the input.<br/><br/>
+
 **Space Complexity:**<br/>
 It quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.<br/><br/>
 
-IN PLACE ALGORITHM: An In-place sort needs only O(1) memory beyond the items being sorted. So an in place algorithm does not need any extra memory.
-						An In-Place Algorithm will not allocate any extra memory like a temporary array in order to make the sorting.
-						Example of In-Place Algorithms: Bubble Sort, Comb Sort, Selection Sort, Insertion Sort, Heap Sort and Shell Sort.
-						Example of Out-Of-Place Algorithms: Merge Sort: We need some extra memory to sort the items.
-	Recursive: Some Sorting Algorithms are implemented in a recursive manner - especially: Divide and Conquer Algorithms. Example: Merge Sort and Quick Sort.
-	Stable: A Stable Sorting Algorithm maintains the relative order of items whose values are equal.
-			Example of Stable Algorithms: Merge Sort.
-			Example of Unstable Algorithms: Quick Sort.
+**Inplace Sorting Algorithm:**<br/> 
+An In-place sorting algorithm needs only O(1) space/memory beyond the items being sorted. So an in place algorithm does not need any extra memory. An Inplace algorithm will not allocate any extra memory like a temporary array in order to make the sorting.<br/>
+<i>Example of In-place Sorting Algorithms:</i> Bubble Sort, Comb Sort, Selection Sort, Insertion Sort, Heap Sort and Shell Sort.<br/>
+<i>Example of Out-of-place Sorting Algorithms:</i> Merge Sort: We need some extra memory to sort the items.<br/>
+	
+**Recursive Sorting Algorithms:**<br/> 
+Some Sorting Algorithms are implemented in a recursive manner - especially: Divide and Conquer Recursive Algorithms.<br/>
+- Example: Merge Sort and Quick Sort.
+
+**Stable Sorting Algorithms:**<br/> 
+A Stable Sorting Algorithm maintains the relative order of items whose values are equal.
+- Example of Stable Algorithms: Merge Sort.<br/>
+
+**Unstable Sorting Algorithms:**<br/> 
+An Unstable Sorting Algorithm does not maintain the relative order of items whose values are equal.
+- Example of Unstable Algorithms: Quick Sort.<br/>
+
 
 ### Implementations of Sorting Algorithms:     
 #### Comparison-Based Sorting Algorithms:
