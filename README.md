@@ -31,7 +31,7 @@ A Sorting Algorithm is an algorithm that puts elements of a Collection (arra
 #### Types of Sorting Algorithms:
 **1. Comparison Based Sorting Algorithms:**<br/> 
 We use comparison to sort the items. <i>Examples:</i> Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort.<br/>
-**2. Non-Comparison Based Sorting Algorithms:**<br/><br/> 
+**2. Non-Comparison Based Sorting Algorithms:**<br/>
 We do not use comparison to sort the items. <i>Examples:</i> Radix Sort, Bucket Sort.<br/>
 
 
@@ -70,7 +70,7 @@ An Adaptive Algorithm is an algorithm that changes its behavior based on inf
 It benefits from local ordering when an unsorted array contains sequences "sorted subArray" that are sorted by default. The algorithms will sort faster! We can modify an existing Sorting Algorithms to make it an Adaptive Sorting Algorithms. Adaptive Algorithms can be used in Comparison-Based-Sorting Algorithms to improve running time complexity from O(N log N) to reach O(N).
 The more pre-sorted the input is, the faster it should be sorted using Adaptive Sorting.<br/>
 <i>Example of Adaptive Sorting Algorithms:</i> Bubble Sort, Insertion Sort, Quick Sort, Shell Sort.
-<i>Example of Non-Adaptive Sorting Algorithms:/<i> Heap Sort, Merge Sort, Selection Sort.
+<i>Example of Non-Adaptive Sorting Algorithms:</i> Heap Sort, Merge Sort, Selection Sort.
 	
 
 **Deterministic and Non-Deterministic Algorithms:**<br/>
@@ -79,15 +79,15 @@ Non-deterministic Algorithm: It has more possible choices. As an example can ser
 
 
 **Serial, Parallel and Distributed Algorithms:**<br/>
-<b>Serial Algorithm:</b> Performs all its steps one by one. 
-<b>Parallel Algorithm:</b> Performs more steps at the same time.
-<b>Distributed Algorithm:</b> Performs more steps at the same time on different machines.
+<b>Serial Algorithm:</b> Performs all its steps one by one.<br/>
+<b>Parallel Algorithm:</b> Performs more steps at the same time.<br/>
+<b>Distributed Algorithm:</b> Performs more steps at the same time on different machines.<br/>
 
 
 **Hybrid Sorting Algorithms:**<br/>
 A Hybrid Sorting Algorithm combines more sorting algorithms to solve a given problem. 
 It chooses one algorithm depending on the data or switching between them over the course of the algorithm.
-It combines desired features of each algorithm, so that the overall algorithm is better than the individual algorithms.
+It combines desired features of each algorithm, so that the overall algorithm is better than the individual algorithms.<br/>
 
 
 ### Implementations of Sorting Algorithms:     
