@@ -138,22 +138,22 @@ It combines desired features of each algorithm, so that the overall algorithm is
 - [Sleep Sort Test.](/src/test/java/SleepSortingAlgorithmTest.java)<br/>
 - [Bubble Sort Test.](/src/test/java/BubbleSortingAlgorithmTest.java)<br/>
 - [Odd-Even Sort Test.](/src/test/java/OddEvenSortingAlgorithmTest.java)<br/>
-- [Comb Sort Test.](/src/main/java/CombSortingAlgorithmTest.java)<br/>
-- [Cocktail Sort Test.](/src/main/java/CocktailSortingAlgorithmTest.java)<br/>
-- [Slection Sort Test.](/src/main/java/SlectionSortingAlgorithmTest.java)<br/>
-- [Insertion Sort Test.](/src/main/java/InsertionSortingAlgorithmTest.java)<br/>
-- [Binary Insertion Sort Test.](/src/main/java/BinaryInsertionSortingAlgorithmTest.java)<br/>
-- [Shell Sort Test.](/src/main/java/ShellSortingAlgorithmTest.java)<br/>
-- [Quick Sort Test.](/src/main/java/QuickSortingAlgorithmTest.java)<br/>
-- [Merge Sort Test.](/src/main/java/MergeSortingAlgorithmTest.java)<br/>
-- [Heap Sort Test.](/src/main/java/HeapSortingAlgorithmTest.java)<br/>
-- [Patience Sort Test.](/src/main/java/PatienceSortingAlgorithmTest.java)<br/>
-- [Cycle Sort Test.](/src/main/java/CycleSortingAlgorithmTest.java)<br/>
-- [Strand Sort Test.](/src/main/java/StrandSortingAlgorithmTest.java)<br/>
-- [Bitonic Sort Test.](/src/main/java/BitonicSortingAlgorithmTest.java)<br/>
-- [Pancake Sort Test.](/src/main/java/PancakeSortingAlgorithmTest.java)<br/>
-- [Gnome Sort Test.](/src/main/java/GnomeSortingAlgorithmTest.java)<br/>
-- [Tree Sort Test.](/src/main/java/TreeSortingAlgorithmTest.java)<br/>
+- [Comb Sort Test.](/src/test/java/CombSortingAlgorithmTest.java)<br/>
+- [Cocktail Sort Test.](/src/test/java/CocktailSortingAlgorithmTest.java)<br/>
+- [Slection Sort Test.](/src/test/java/SlectionSortingAlgorithmTest.java)<br/>
+- [Insertion Sort Test.](/src/test/java/InsertionSortingAlgorithmTest.java)<br/>
+- [Binary Insertion Sort Test.](/src/test/java/BinaryInsertionSortingAlgorithmTest.java)<br/>
+- [Shell Sort Test.](/src/test/java/ShellSortingAlgorithmTest.java)<br/>
+- [Quick Sort Test.](/src/test/java/QuickSortingAlgorithmTest.java)<br/>
+- [Merge Sort Test.](/src/test/java/MergeSortingAlgorithmTest.java)<br/>
+- [Heap Sort Test.](/src/test/java/HeapSortingAlgorithmTest.java)<br/>
+- [Patience Sort Test.](/src/test/java/PatienceSortingAlgorithmTest.java)<br/>
+- [Cycle Sort Test.](/src/test/java/CycleSortingAlgorithmTest.java)<br/>
+- [Strand Sort Test.](/src/test/java/StrandSortingAlgorithmTest.java)<br/>
+- [Bitonic Sort Test.](/src/test/java/BitonicSortingAlgorithmTest.java)<br/>
+- [Pancake Sort Test.](/src/test/java/PancakeSortingAlgorithmTest.java)<br/>
+- [Gnome Sort Test.](/src/test/java/GnomeSortingAlgorithmTest.java)<br/>
+- [Tree Sort Test.](/src/test/java/TreeSortingAlgorithmTest.java)<br/>
 
 [Back To The Top](#Sorting-Algorithms)
 
