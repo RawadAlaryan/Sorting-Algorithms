@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"main.java.comparisonBasedSortingAlgorithms"},{"l":"main.java.hybridBasedSortingAlgorithms"},{"l":"main.java.nonComparisonBasedSortingAlgorithms"},{"l":"test.java"}]

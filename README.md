@@ -5,7 +5,7 @@
 - [Technologies](#technologies)
 - [Fundamentals of Sorting Algorithms](#fundamentals-of-Sorting-Algorithms)
 - [Implementations of Sorting Algorithms](#implementations-of-Sorting-Algorithms)
-- [Test Cases For Sorting Algorithms:](#test-cases-For-Sorting-Algorithms)
+- [Test Cases For Sorting Algorithms](#test-cases-For-Sorting-Algorithms)
 - [Author Info](#author-info)
 - [License](LICENSE.md)
 
