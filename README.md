@@ -7,12 +7,14 @@
 - [Implementations of Sorting Algorithms](#implementations-of-Sorting-Algorithms)
 - [Test Cases For Sorting Algorithms:](#test-cases-For-Sorting-Algorithms)
 - [Author Info](#author-info)
+- [License](LICENSE.md)
 
 
 ### Description:
 This repository contains info about Sorting Algorithms Fundamentals and their Implementation in Java Programming Language.<br/>
 All code is implemented using Java with Steps and Comments included inside the source classes.<br/>
-All code is Tested and Benchmarked using a Testing Framework inside the test package.
+All code is Tested and Benchmarked using a Testing Framework inside the test package.<br/>
+All code is Documented using JavaDoc inside the target package.
 
 ### Technologies:
 - Programming Language: Java SE API
@@ -173,6 +175,8 @@ They take advantage of existing order in its input and perform better if the inp
 - [Bead Sort Test.](/src/test/java/BeadSortingAlgorithmTest.java)<br/>
 
 </b>Hybrid-Based Sorting Algorithms Testing:</b>
+- [Intro Sort Test.](/src/main/java/IntroSortingAlgorithmTest.java)
+- [Tim Sort Test.](/src/main/java/TimSortingAlgorithmTest.java)
 
 [Back To The Top](#Sorting-Algorithms)
 

@@ -9,19 +9,49 @@
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
+	    <project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>Cp1252</project.reporting.outputEncoding>
+    </properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
+		
 		<plugins>
 			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-compiler-plugin</artifactId>
+			    <version>3.8.1</version>
 			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.2.0</version>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<configuration>
+          					<stylesheetfile></stylesheetfile>
+        				</configuration>
+						<goals>
+							<goal>jar</goal>
+							<goal>javadoc</goal>
+              				<goal>test-javadoc</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			
 			<plugin>
             	<groupId>org.apache.maven.plugins</groupId>
             	<artifactId>maven-surefire-plugin</artifactId>
             	<version>2.22.1</version>
         	</plugin>
+        	
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>2.22.1</version>
+            </plugin>
 		</plugins>
 	</build>
 	<dependencies>
@@ -29,7 +59,7 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
 			<version>5.4.2</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>

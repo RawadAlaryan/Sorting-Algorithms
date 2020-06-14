@@ -56,14 +56,14 @@ public class RadixSortingAlgorithmTest {
 
 	@Test
 	void testRadixAscendingSortStrings() {			
-		expectedStringArray = new String[] {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",	"t", "u", "v", "w", "x", "y", "z"};			
+		expectedStringArray = new String[] {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};			
 		sortedStringArray = radixSortinglgorithm.RadixAscendingSortStrings(inputStringArray);
 		assertArrayEquals(expectedStringArray, sortedStringArray);
 	}
 
 	@Test
 	void testRadixDescendingSortStrings() {		
-		expectedStringArray = new String[] {"z", "y", "x", "w", "v", "u", "t", "s", "r", "q", "p", "o", "n", "m", "l", "k", "j", "i", "h", "g", "f",	"e",	"d",	"c",	"b",	"a"};
+		expectedStringArray = new String[] {"z", "y", "x", "w", "v", "u", "t", "s", "r", "q", "p", "o", "n", "m", "l", "k", "j", "i", "h", "g", "f", "e", "d", "c", "b", "a"};
 		sortedStringArray = radixSortinglgorithm.RadixDescendingSortStrings(inputStringArray);
 		assertArrayEquals(expectedStringArray, sortedStringArray);
 	}
