@@ -96,47 +96,47 @@ They take advantage of existing order in its input and perform better if the inp
 
 ### Implementations of Sorting Algorithms:     
 #### Comparison-Based Sorting Algorithms:
-- [Bogo Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BogoSortingAlgorithm.java)<br/>
-- [Stooge Sort.](/src/main/java/comparisonBasedSortingAlgorithms/StoogeSortingAlgorithm.java)<br/>
-- [Sleep Sort.](/src/main/java/comparisonBasedSortingAlgorithms/SleepSortingAlgorithm.java)<br/>
-- [Bubble Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BubbleSortingAlgorithm.java)<br/>
-- [Odd-Even Sort.](/src/main/java/comparisonBasedSortingAlgorithms/OddEvenSortingAlgorithm.java)<br/>
-- [Comb Sort.](/src/main/java/comparisonBasedSortingAlgorithms/CombSortingAlgorithm.java)<br/>
-- [Cocktail Sort.](/src/main/java/comparisonBasedSortingAlgorithms/CocktailSortingAlgorithm.java)<br/>
-- [Slection Sort.](/src/main/java/comparisonBasedSortingAlgorithms/SlectionSortingAlgorithm.java)<br/>
-- [Insertion Sort.](/src/main/java/comparisonBasedSortingAlgorithms/InsertionSortingAlgorithm.java)<br/>
-- [Binary Insertion Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BinaryInsertionSortingAlgorithm.java)<br/>
-- [Shell Sort.](/src/main/java/comparisonBasedSortingAlgorithms/ShellSortingAlgorithm.java)<br/>
-- [Quick Sort.](/src/main/java/comparisonBasedSortingAlgorithms/QuickSortingAlgorithm.java)<br/>
-- [Merge Sort.](/src/main/java/comparisonBasedSortingAlgorithms/MergeSortingAlgorithm.java)<br/>
-- [Heap Sort.](/src/main/java/comparisonBasedSortingAlgorithms/HeapSortingAlgorithm.java)<br/>
-- [Patience Sort.](/src/main/java/comparisonBasedSortingAlgorithms/PatienceSortingAlgorithm.java)<br/>
-- [Cycle Sort.](/src/main/java/comparisonBasedSortingAlgorithms/CycleSortingAlgorithm.java)<br/>
-- [Strand Sort.](/src/main/java/comparisonBasedSortingAlgorithms/StrandSortingAlgorithm.java)<br/>
-- [Bitonic Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BitonicSortingAlgorithm.java)<br/>
-- [Pancake Sort.](/src/main/java/comparisonBasedSortingAlgorithms/PancakeSortingAlgorithm.java)<br/>
-- [Gnome Sort.](/src/main/java/comparisonBasedSortingAlgorithms/GnomeSortingAlgorithm.java)<br/>
-- [Tree Sort.](/src/main/java/comparisonBasedSortingAlgorithms/TreeSortingAlgorithm.java)<br/>
+- [Bogo Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BogoSortingAlgorithm.java)
+- [Stooge Sort.](/src/main/java/comparisonBasedSortingAlgorithms/StoogeSortingAlgorithm.java)
+- [Sleep Sort.](/src/main/java/comparisonBasedSortingAlgorithms/SleepSortingAlgorithm.java)
+- [Bubble Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BubbleSortingAlgorithm.java)
+- [Odd-Even Sort.](/src/main/java/comparisonBasedSortingAlgorithms/OddEvenSortingAlgorithm.java)
+- [Comb Sort.](/src/main/java/comparisonBasedSortingAlgorithms/CombSortingAlgorithm.java)
+- [Cocktail Sort.](/src/main/java/comparisonBasedSortingAlgorithms/CocktailSortingAlgorithm.java)
+- [Selection Sort.](/src/main/java/comparisonBasedSortingAlgorithms/SelectionSortingAlgorithm.java)
+- [Insertion Sort.](/src/main/java/comparisonBasedSortingAlgorithms/InsertionSortingAlgorithm.java)
+- [Binary Insertion Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BinaryInsertionSortingAlgorithm.java)
+- [Shell Sort.](/src/main/java/comparisonBasedSortingAlgorithms/ShellSortingAlgorithm.java)
+- [Quick Sort.](/src/main/java/comparisonBasedSortingAlgorithms/QuickSortingAlgorithm.java)
+- [Merge Sort.](/src/main/java/comparisonBasedSortingAlgorithms/MergeSortingAlgorithm.java)
+- [Heap Sort.](/src/main/java/comparisonBasedSortingAlgorithms/HeapSortingAlgorithm.java)
+- [Patience Sort.](/src/main/java/comparisonBasedSortingAlgorithms/PatienceSortingAlgorithm.java)
+- [Cycle Sort.](/src/main/java/comparisonBasedSortingAlgorithms/CycleSortingAlgorithm.java)
+- [Strand Sort.](/src/main/java/comparisonBasedSortingAlgorithms/StrandSortingAlgorithm.java)
+- [Bitonic Sort.](/src/main/java/comparisonBasedSortingAlgorithms/BitonicSortingAlgorithm.java)
+- [Pancake Sort.](/src/main/java/comparisonBasedSortingAlgorithms/PancakeSortingAlgorithm.java)
+- [Gnome Sort.](/src/main/java/comparisonBasedSortingAlgorithms/GnomeSortingAlgorithm.java)
+- [Tree Sort.](/src/main/java/comparisonBasedSortingAlgorithms/TreeSortingAlgorithm.java)
 
 [Back To The Top](#Sorting-Algorithms)
       
       
       
 #### Non-Comparison-Based Sorting Algorithms:
-- [Counting Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/CountingSortingAlgorithm.java)<br/>
-- [Pigeon-Hole Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/PigeonHoleSortingAlgorithm.java)<br/>
-- [Radix Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/RadixSortingAlgorithm.java)<br/>
-- [Bucket Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/BucketSortingAlgorithm.java)<br/>
+- [Counting Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/CountingSortingAlgorithm.java)
+- [Pigeon-Hole Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/PigeonHoleSortingAlgorithm.java)
+- [Radix Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/RadixSortingAlgorithm.java)
+- [Bucket Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/BucketSortingAlgorithm.java)
 - [AmericanFlag Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/AmericanFlagSortingAlgorithm.java)<br/>
-- [Bead Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/BeadSortingAlgorithm.java)<br/>
+- [Bead Sort.](/src/main/java/nonComparisonBasedSortingAlgorithms/BeadSortingAlgorithm.java)
 
 [Back To The Top](#Sorting-Algorithms)
 
 
 
 #### Hybrid-Based Sorting Algorithms:
-- [Intro Sort.](/src/main/java/hybridBasedSortingAlgorithms/IntroSortingAlgorithm.java)<br/>
-- [Tim Sort.](/src/main/java/hybridBasedSortingAlgorithms/TimSortingAlgorithm.java)<br/>
+- [Intro Sort.](/src/main/java/hybridBasedSortingAlgorithms/IntroSortingAlgorithm.java)
+- [Tim Sort.](/src/main/java/hybridBasedSortingAlgorithms/TimSortingAlgorithm.java)
 
 [Back To The Top](#Sorting-Algorithms)
 
@@ -144,35 +144,35 @@ They take advantage of existing order in its input and perform better if the inp
 
 #### Test Cases For Sorting Algorithms:
 </b>Comparison-Based Sorting Algorithms Testing:</b>
-- [Bogo Sort Test.](/src/test/java/BogoSortingAlgorithmTest.java)<br/>
-- [Stooge Sort Test.](/src/test/java/StoogeSortingAlgorithmTest.java)<br/>
-- [Sleep Sort Test.](/src/test/java/SleepSortingAlgorithmTest.java)<br/>
-- [Bubble Sort Test.](/src/test/java/BubbleSortingAlgorithmTest.java)<br/>
-- [Odd-Even Sort Test.](/src/test/java/OddEvenSortingAlgorithmTest.java)<br/>
-- [Comb Sort Test.](/src/test/java/CombSortingAlgorithmTest.java)<br/>
-- [Cocktail Sort Test.](/src/test/java/CocktailSortingAlgorithmTest.java)<br/>
-- [Selection Sort Test.](/src/test/java/SelectionSortingAlgorithmTest.java)<br/>
-- [Insertion Sort Test.](/src/test/java/InsertionSortingAlgorithmTest.java)<br/>
-- [Binary Insertion Sort Test.](/src/test/java/BinaryInsertionSortingAlgorithmTest.java)<br/>
-- [Shell Sort Test.](/src/test/java/ShellSortingAlgorithmTest.java)<br/>
-- [Quick Sort Test.](/src/test/java/QuickSortingAlgorithmTest.java)<br/>
-- [Merge Sort Test.](/src/test/java/MergeSortingAlgorithmTest.java)<br/>
-- [Heap Sort Test.](/src/test/java/HeapSortingAlgorithmTest.java)<br/>
-- [Patience Sort Test.](/src/test/java/PatienceSortingAlgorithmTest.java)<br/>
-- [Cycle Sort Test.](/src/test/java/CycleSortingAlgorithmTest.java)<br/>
-- [Strand Sort Test.](/src/test/java/StrandSortingAlgorithmTest.java)<br/>
-- [Bitonic Sort Test.](/src/test/java/BitonicSortingAlgorithmTest.java)<br/>
-- [Pancake Sort Test.](/src/test/java/PancakeSortingAlgorithmTest.java)<br/>
-- [Gnome Sort Test.](/src/test/java/GnomeSortingAlgorithmTest.java)<br/>
-- [Tree Sort Test.](/src/test/java/TreeSortingAlgorithmTest.java)<br/>
+- [Bogo Sort Test.](/src/test/java/BogoSortingAlgorithmTest.java)
+- [Stooge Sort Test.](/src/test/java/StoogeSortingAlgorithmTest.java)
+- [Sleep Sort Test.](/src/test/java/SleepSortingAlgorithmTest.java)
+- [Bubble Sort Test.](/src/test/java/BubbleSortingAlgorithmTest.java)
+- [Odd-Even Sort Test.](/src/test/java/OddEvenSortingAlgorithmTest.java)
+- [Comb Sort Test.](/src/test/java/CombSortingAlgorithmTest.java)
+- [Cocktail Sort Test.](/src/test/java/CocktailSortingAlgorithmTest.java)
+- [Selection Sort Test.](/src/test/java/SelectionSortingAlgorithmTest.java)
+- [Insertion Sort Test.](/src/test/java/InsertionSortingAlgorithmTest.java)
+- [Binary Insertion Sort Test.](/src/test/java/BinaryInsertionSortingAlgorithmTest.java)
+- [Shell Sort Test.](/src/test/java/ShellSortingAlgorithmTest.java)
+- [Quick Sort Test.](/src/test/java/QuickSortingAlgorithmTest.java)
+- [Merge Sort Test.](/src/test/java/MergeSortingAlgorithmTest.java)
+- [Heap Sort Test.](/src/test/java/HeapSortingAlgorithmTest.java)
+- [Patience Sort Test.](/src/test/java/PatienceSortingAlgorithmTest.java)
+- [Cycle Sort Test.](/src/test/java/CycleSortingAlgorithmTest.java)
+- [Strand Sort Test.](/src/test/java/StrandSortingAlgorithmTest.java)
+- [Bitonic Sort Test.](/src/test/java/BitonicSortingAlgorithmTest.java)
+- [Pancake Sort Test.](/src/test/java/PancakeSortingAlgorithmTest.java)
+- [Gnome Sort Test.](/src/test/java/GnomeSortingAlgorithmTest.java)
+- [Tree Sort Test.](/src/test/java/TreeSortingAlgorithmTest.java)
 
 </b>Non-Comparison-Based Sorting Algorithms Testing:</b>
-- [Counting Sort Test.](/src/test/java/CountingSortingAlgorithmTest.java)<br/>
-- [Pigeon-Hole Sort Test.](/src/test/java/PigeonHoleSortingAlgorithmTest.java)<br/>
-- [Radix Sort.](/src/test/java/RadixSortingAlgorithmTest.java)<br/>
-- [Bucket Sort Test.](/src/test/java/BucketSortingAlgorithmTest.java)<br/>
-- [AmericanFlag Sort Test.](/src/test/java/AmericanFlagSortingAlgorithmTest.java)<br/>
-- [Bead Sort Test.](/src/test/java/BeadSortingAlgorithmTest.java)<br/>
+- [Counting Sort Test.](/src/test/java/CountingSortingAlgorithmTest.java)
+- [Pigeon-Hole Sort Test.](/src/test/java/PigeonHoleSortingAlgorithmTest.java)
+- [Radix Sort.](/src/test/java/RadixSortingAlgorithmTest.java)
+- [Bucket Sort Test.](/src/test/java/BucketSortingAlgorithmTest.java)
+- [AmericanFlag Sort Test.](/src/test/java/AmericanFlagSortingAlgorithmTest.java)
+- [Bead Sort Test.](/src/test/java/BeadSortingAlgorithmTest.java)
 
 </b>Hybrid-Based Sorting Algorithms Testing:</b>
 - [Intro Sort Test.](/src/main/java/IntroSortingAlgorithmTest.java)

@@ -13,8 +13,6 @@
         <project.reporting.outputEncoding>Cp1252</project.reporting.outputEncoding>
     </properties>
 	<build>
-		<sourceDirectory>src</sourceDirectory>
-		
 		<plugins>
 			<plugin>
 			    <groupId>org.apache.maven.plugins</groupId>
@@ -28,7 +26,7 @@
 				<version>3.2.0</version>
 				<executions>
 					<execution>
-						<id>attach-javadocs</id>
+						<id>javadoc-jar</id>
 						<configuration>
           					<stylesheetfile></stylesheetfile>
         				</configuration>

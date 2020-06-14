@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.java.CocktailSortingAlgorithmTest" time="0.009" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.java.CocktailSortingAlgorithmTest" time="0.017" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin"/>
-    <property name="sun.java.command" value="C:\Users\RAWADA~1\AppData\Local\Temp\surefire8277135523956236222\surefirebooter12174254334261336016.jar C:\Users\Rawad Alaryan\AppData\Local\Temp\surefire8277135523956236222 2020-06-13T20-32-23_115-jvmRun1 surefire367211143926118899tmp surefire_09171955864480613736tmp"/>
+    <property name="sun.java.command" value="C:\Users\RAWADA~1\AppData\Local\Temp\surefire11475116345958276774\surefirebooter4013287837528177792.jar C:\Users\Rawad Alaryan\AppData\Local\Temp\surefire11475116345958276774 2020-06-13T22-56-58_165-jvmRun1 surefire13158259074880179780tmp surefire_06061393179551499371tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Rawad Alaryan\Documents\GitHub\Sorting-Algorithms\target\test-classes;C:\Users\Rawad Alaryan\Documents\GitHub\Sorting-Algorithms\target\classes;C:\Users\Rawad Alaryan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Rawad Alaryan\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Rawad Alaryan\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Rawad Alaryan\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Rawad Alaryan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Rawad Alaryan\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\RAWADA~1\AppData\Local\Temp\surefire8277135523956236222\surefirebooter12174254334261336016.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RAWADA~1\AppData\Local\Temp\surefire11475116345958276774\surefirebooter4013287837528177792.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="9.0.4+11"/>
@@ -59,6 +59,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="53.0"/>
   </properties>
-  <testcase name="testCocktailAscendingSort" classname="test.java.CocktailSortingAlgorithmTest" time="0.004"/>
-  <testcase name="testCocktailDescendingSort" classname="test.java.CocktailSortingAlgorithmTest" time="0"/>
+  <testcase name="testCocktailAscendingSort" classname="test.java.CocktailSortingAlgorithmTest" time="0.008"/>
+  <testcase name="testCocktailDescendingSort" classname="test.java.CocktailSortingAlgorithmTest" time="0.003"/>
 </testsuite>
