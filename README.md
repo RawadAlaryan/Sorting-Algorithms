@@ -175,8 +175,8 @@ They take advantage of existing order in its input and perform better if the inp
 - [Bead Sort Test.](/src/test/java/BeadSortingAlgorithmTest.java)
 
 </b>Hybrid-Based Sorting Algorithms Testing:</b>
-- [Intro Sort Test.](/src/test/java/hybridBasedSortingAlgorithm/IntroSortingAlgorithmTest.java)
-- [Tim Sort Test.](/src/test/java/hybridBasedSortingAlgorithm/TimSortingAlgorithmTest.java)
+- [Intro Sort Test.](src/test/java/hybridBasedSortingAlgorithm/IntroSortingAlgorithmTest.java)
+- [Tim Sort Test.](/src/test/java/hybridBasedSortingAlgorithm/TimSortingAlgorithmTest.java)	
 
 [Back To The Top](#Sorting-Algorithms)
 
